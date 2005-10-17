@@ -5,7 +5,7 @@ Version:	0.0.4
 Release:	0.2
 License:	GPL v2+
 Group:		Applications
-Source0:	http://tobyinkster.co.uk/Software/linux/tv2html/tv2html-0.0.4.txt
+Source0:	http://tobyinkster.co.uk/Software/linux/tv2html/%{name}-%{version}.txt
 # Source0-md5:	d233b50c1e78746a61bef7cd7677c4a7
 Source1:	http://tobyinkster.co.uk/Software/linux/tv2html/xmltv.css
 # Source1-md5:	7f1da9cea1220ee871f0073c3710f59f
@@ -15,8 +15,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-A Perl script that converts a sorted XML file made by XMLTV
-into a nicely formatted HTML TV guide.
+A Perl script that converts a sorted XML file made by XMLTV into a
+nicely formatted HTML TV guide.
 
 %prep
 %setup -q -c -T

@@ -1,5 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	XMLTV to HTML converter
+Summary(pl):	Konwerter XMLTV do HTML-a
 Name:		tv2html
 Version:	0.0.4
 Release:	0.2
@@ -17,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Perl script that converts a sorted XML file made by XMLTV into a
 nicely formatted HTML TV guide.
+
+%description -l pl
+Skrypt Perla przekszta³caj±cy posortowany plik XML stworzony przez
+XMLTV na ³adnie sformatowany przewodnik telewizyjny w HTML-u.
 
 %prep
 %setup -q -c -T

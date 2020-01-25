@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	XMLTV to HTML converter
 Summary(pl.UTF-8):	Konwerter XMLTV do HTML-a
 Name:		tv2html
